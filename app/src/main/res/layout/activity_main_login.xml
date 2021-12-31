@@ -15,12 +15,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:src="@drawable/logounimal"
-            android:layout_marginBottom="20dp"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/uni"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:src="@drawable/logounimal"-->
+<!--            android:layout_marginBottom="20dp"/>-->
 
         <TextView
             android:layout_width="match_parent"

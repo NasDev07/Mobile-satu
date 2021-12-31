@@ -5,7 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.example.projectuas.Adapter.RecyclerViewAdapter;
@@ -41,10 +43,20 @@ public class menu extends AppCompatActivity {
         });
 
         list = (RecyclerView)findViewById(R.id.list);
-        String[] data = {"Test 1", "Test 2", "Test 3", "Test 4"};
+        String[] data = {
+                "Test 1",
+                "Test 2",
+                "Test 3",
+                "Test 4"};
         RecyclerViewAdapter adapter = new  RecyclerViewAdapter(menu.this, data);
         list.setAdapter(adapter);
         list.setLayoutManager(new LinearLayoutManager(this));
 
+    }
+
+
+    public void coba(View view) {
+        Intent intent = new Intent(this,cartview.class);
+        startActivity(intent);
     }
 }
