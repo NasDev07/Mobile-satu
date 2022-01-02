@@ -59,4 +59,14 @@ public class menu extends AppCompatActivity {
         Intent intent = new Intent(this,cartview.class);
         startActivity(intent);
     }
+
+    public void mahasiswa(View view) {
+        Intent intent = new Intent(this,mahasiswa.class);
+        startActivity(intent);
+    }
+
+    public void akademik(View view) {
+        Intent intent = new Intent(this,akademik.class);
+        startActivity(intent);
+    }
 }

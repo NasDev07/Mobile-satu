@@ -19,25 +19,24 @@
         app:cardUseCompatPadding="true"
         tools:ignore="MissingConstraints">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Kehadiran Mahasiswa"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:src="@drawable/cartt"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="35dp"
             android:id="@+id/img"
             android:contentDescription="@string/app_name" />
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Porenjer"-->
-<!--            android:layout_gravity="bottom|center_horizontal"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:textSize="20sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/black"-->
-<!--            />-->
 
     </androidx.cardview.widget.CardView>
 

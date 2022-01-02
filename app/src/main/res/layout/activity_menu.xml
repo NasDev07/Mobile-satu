@@ -8,7 +8,6 @@
     android:orientation="vertical"
     tools:context=".menu">
 
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -23,7 +22,14 @@
             <com.synnapps.carouselview.CarouselView
                 android:id="@+id/carousel"
                 android:layout_width="match_parent"
-                android:layout_height="300dp" />
+                android:layout_height="300dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                tools:ignore="MissingConstraints"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/list"
@@ -32,6 +38,7 @@
 
         </LinearLayout>
     </ScrollView>
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -86,6 +93,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="80dp"
+            android:onClick="mahasiswa"
             android:layout_marginTop="7dp"
             android:src="@drawable/mahasiswa"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -117,6 +125,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/akademik"
+            android:onClick="akademik"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
