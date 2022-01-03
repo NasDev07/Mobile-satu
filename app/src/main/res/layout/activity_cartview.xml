@@ -35,8 +35,7 @@
             android:src="@drawable/cartt"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="35dp"
-            android:id="@+id/img"
-            android:contentDescription="@string/app_name" />
+                android:contentDescription="@string/app_name" />
 
     </androidx.cardview.widget.CardView>
 

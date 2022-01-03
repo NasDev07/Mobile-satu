@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainLogin extends AppCompatActivity {
 
-    String email="unimal";
+    String username="unimal";
     String Password="unimal";
 
     @Override
@@ -26,10 +26,10 @@ public class MainLogin extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (txtUser.getText().toString().equalsIgnoreCase(email)&&txtPass.getText().toString().equalsIgnoreCase(Password)){
+                if (txtUser.getText().toString().equalsIgnoreCase(username)&&txtPass.getText().toString().equalsIgnoreCase(Password)){
                     startActivity(new Intent(MainLogin.this,menu.class));
                 }else{
-                    Toast.makeText(MainLogin.this,"Email atau Password Salah",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainLogin.this,"Username atau Password Salah",Toast.LENGTH_SHORT).show();
                 }
             }
         });

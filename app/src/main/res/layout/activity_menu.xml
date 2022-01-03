@@ -19,6 +19,19 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="348dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
             <com.synnapps.carouselview.CarouselView
                 android:id="@+id/carousel"
                 android:layout_width="match_parent"
@@ -31,6 +44,8 @@
                 app:cardUseCompatPadding="true"
                 tools:ignore="MissingConstraints"/>
 
+            </androidx.cardview.widget.CardView>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/list"
                 android:layout_width="match_parent"
@@ -39,6 +54,15 @@
         </LinearLayout>
     </ScrollView>
 
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="Selamat Datang di Akademik Sistem Informasi"-->
+<!--        android:layout_marginTop="320dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -58,7 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:background="@drawable/cart"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="17dp"
             android:layout_marginTop="7dp">
         <ImageView
             android:layout_width="wrap_content"
@@ -87,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:background="@drawable/cartt"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="17dp"
             android:layout_marginTop="110dp">
 
         <ImageView
@@ -117,7 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:background="@drawable/carttt"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="17dp"
             android:layout_marginTop="210dp">
 
         <ImageView

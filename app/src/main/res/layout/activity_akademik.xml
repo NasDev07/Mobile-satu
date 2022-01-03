@@ -34,71 +34,46 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/cartt"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="80dp"
-                    android:id="@+id/img"
-                    android:contentDescription="@string/app_name" />
+                    android:layout_width="125dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/logo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="200dp"/>
+
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Buttom"
+                    android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:layout_marginTop="79dp"
-                    android:layout_marginLeft="169dp"/>
+                    android:textSize="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginRight="60dp"/>
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                    android:layout_marginTop="98dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <Button
+                    android:onClick="satu"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Klik Disini"
+                    android:layout_marginTop="145dp"
+                    android:layout_marginLeft="200dp"/>
 
             </androidx.cardview.widget.CardView>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="10dp"
-                app:cardMaxElevation="12dp"
-                app:cardPreventCornerOverlap="true"
-                app:cardUseCompatPadding="true"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/cartt"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="75dp"
-                    android:id="@+id/img1"
-                    android:contentDescription="@string/app_name" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Buttom"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:layout_marginTop="73dp"
-                    android:layout_marginLeft="170dp"/>
-
-            </androidx.cardview.widget.CardView>
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="250dp">
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
@@ -113,28 +88,96 @@
                     tools:ignore="MissingConstraints">
 
                     <ImageView
-                        android:id="@+id/img2"
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="110dp"
-                        android:layout_marginTop="75dp"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/cartt" />
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/envelope"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="200dp"/>
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="170dp"
-                        android:layout_marginTop="73dp"
-                        android:text="Buttom"
+                        android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                        android:layout_marginTop="98dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:onClick="dua"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="Klik Disini"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="200dp"/>
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/box_perspective_matte"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="205dp"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="60dp"/>
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                        android:layout_marginTop="98dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:onClick="tiga"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="Klik Disini"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="200dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>
