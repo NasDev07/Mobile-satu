@@ -7,16 +7,52 @@
     tools:context=".akasisatu"
     android:background="#fff">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff">
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="MissingConstraints">
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfview"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="300dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+        <com.github.barteksc.pdfviewer.PDFView
+                android:id="@+id/pdfview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="300dp"/>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
