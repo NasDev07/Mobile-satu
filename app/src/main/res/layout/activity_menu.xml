@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_marginStart="1dp"
-            android:onClick="coba"
+            android:onClick="dosen"
             android:src="@drawable/dosen"
             android:layout_marginTop="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +147,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="80dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/akademik"
             android:onClick="akademik"
             app:layout_constraintBottom_toBottomOf="parent"

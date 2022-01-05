@@ -6,15 +6,15 @@ import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class akasisatu extends AppCompatActivity {
+public class kelender_akademik extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_akasisatu);
+        setContentView(R.layout.activity_kelender_akademik);
 
         PDFView pdfView = findViewById(R.id.pdfview);
-        pdfView.fromAsset("pengumuman_kip_tambahan.pdf")
+        pdfView.fromAsset("Kalender_Akademik.pdf")
                 .enableSwipe(true)
                 .enableDoubletap(false)
                 .load();

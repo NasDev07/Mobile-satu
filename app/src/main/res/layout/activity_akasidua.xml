@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".akasisatu"
-    android:background="#fff">
+    tools:context=".akasidua"
+        android:background="#fff">
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/kuota_tambahan" />
+                android:src="@drawable/aceh_caroeng" />
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
@@ -31,7 +31,7 @@
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama-Nama Penerima KIP-Kuliah Kuota Tambahan Universitas Malikussaleh Tahun 2021"
+                android:text="Nama-Nama Mahasiswa Universitas Malikussaleh Penerima Beasiswa Aceh Caroeng Tahun 2021"
                 android:layout_marginTop="30dp"
                 android:padding="15dp"
                 android:textColor="@color/black"

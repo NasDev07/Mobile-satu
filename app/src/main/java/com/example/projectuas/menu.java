@@ -25,19 +25,22 @@ public class menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         CarouselView carousel = (CarouselView) findViewById(R.id.carousel);
-        carousel.setPageCount(3);
+        carousel.setPageCount(4);
         carousel.setImageListener(new ImageListener() {
             @Override
             public void setImageForPosition(int position, ImageView imageView) {
                 switch (position){
                     case 0:
-                        imageView.setImageResource(R.drawable.unimal);
+                        imageView.setImageResource(R.drawable.unimallll);
                         break;
                     case 1:
                         imageView.setImageResource(R.drawable.unimall);
                         break;
+                    case 2:
+                        imageView.setImageResource(R.drawable.unimall);
+                        break;
                     default:
-                        imageView.setImageResource(R.drawable.unimalll);
+                        imageView.setImageResource(R.drawable.unimal);
                 }
             }
         });
@@ -55,7 +58,7 @@ public class menu extends AppCompatActivity {
     }
 
 
-    public void coba(View view) {
+    public void dosen(View view) {
         Intent intent = new Intent(this,cartview.class);
         startActivity(intent);
     }

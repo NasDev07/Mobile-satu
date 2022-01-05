@@ -5,51 +5,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".cartview"
-    android:background="#ddd">
+    android:background="#fff">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:cardElevation="10dp"
-        app:cardCornerRadius="20dp"
-        android:layout_margin="10dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardMaxElevation="12dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
-        tools:ignore="MissingConstraints">
+            android:onClick="datasatu"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Data Kehadiran Mahasiswa"
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="normal"/>
-
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:src="@drawable/cartt"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="35dp"
-                android:contentDescription="@string/app_name" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grafik Jumlah Dosen Aktif* Berdasarkan Jenis Kelamin"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"/>
 
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+            android:onClick="datadua"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="120dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="MissingConstraints">
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfview"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="300dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grafik Jumlah Dosen Aktif* Berdasarkan Ikatan Kerja"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20dp"/>
 
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+                android:onClick="datatiga"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="240dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                tools:ignore="MissingConstraints">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grafik Jumlah Dosen Aktif* Berdasarkan Jenjang Pendidikan Tertinggi"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 
 

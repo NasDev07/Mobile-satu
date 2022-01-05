@@ -14,6 +14,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectUas">
         <activity
+            android:name=".dosentiga"
+            android:exported="false" />
+        <activity
+            android:name=".dosendua"
+            android:exported="false" />
+        <activity
+            android:name=".dosensatu"
+            android:exported="false" />
+        <activity
+            android:name=".kelender_akademik"
+            android:exported="false" />
+        <activity
+            android:name=".transkipnilai"
+            android:exported="false" />
+        <activity
+            android:name=".krs"
+            android:exported="false" />
+        <activity
+            android:name=".datadiri"
+            android:exported="false" />
+        <activity
+            android:name=".akasiempat"
+            android:exported="false" />
+        <activity
+            android:name=".akasitiga"
+            android:exported="false" />
+        <activity
+            android:name=".akasidua"
+            android:exported="false" />
+        <activity
             android:name=".akasisatu"
             android:exported="false" />
         <activity

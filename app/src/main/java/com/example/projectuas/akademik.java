@@ -20,12 +20,17 @@ public class akademik extends AppCompatActivity {
     }
 
     public void dua(View view) {
-        Intent intent = new Intent(this,akasisatu.class);
+        Intent intent = new Intent(this,akasidua.class);
         startActivity(intent);
     }
 
     public void tiga(View view) {
-        Intent intent = new Intent(this,akasisatu.class);
+        Intent intent = new Intent(this,akasitiga.class);
+        startActivity(intent);
+    }
+
+    public void empat(View view) {
+        Intent intent = new Intent(this,akasiempat.class);
         startActivity(intent);
     }
 

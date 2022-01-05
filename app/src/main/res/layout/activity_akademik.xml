@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".akademik">
+    tools:context=".akademik"
+        android:background="#fff">
 
 
 
@@ -34,11 +35,11 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:layout_width="125dp"
-                    android:layout_height="110dp"
-                    android:background="@drawable/logo"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="200dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/logounimal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="200dp"/>
 
                 <TextView
                     android:layout_width="200dp"
@@ -70,6 +71,7 @@
                     android:layout_marginLeft="200dp"/>
 
             </androidx.cardview.widget.CardView>
+<!--                sudah-->
             </LinearLayout>
 
 
@@ -91,8 +93,8 @@
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="90dp"
-                        android:background="@drawable/envelope"
+                        android:layout_height="100dp"
+                        android:background="@drawable/logounimal"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="200dp"/>
 
@@ -100,10 +102,10 @@
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
+                        android:text="Nama-Nama Mahasiswa Universitas Malikussaleh Penerima Beasiswa Aceh Caroeng Tahun 2021"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="20dp"
+                        android:textSize="16dp"
                         android:layout_marginBottom="50dp"
                         android:layout_marginRight="60dp"
                             android:padding="10dp"/>
@@ -112,7 +114,7 @@
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                        android:text="Berikut ialah Nama Nama Penerima Beasiswa Aceh Caroeng tahun 2021"
                         android:layout_marginTop="98dp"
                         android:layout_marginLeft="10dp"
                             android:padding="10dp"/>
@@ -126,6 +128,7 @@
                         android:layout_marginLeft="200dp"/>
 
                 </androidx.cardview.widget.CardView>
+                <!--                sudah-->
             </LinearLayout>
 
 
@@ -147,8 +150,8 @@
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="90dp"
-                        android:background="@drawable/box_perspective_matte"
+                        android:layout_height="100dp"
+                        android:background="@drawable/logounimal"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="205dp"/>
 
@@ -156,10 +159,10 @@
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Nama Penerima KIP Kuliah Kuota Tambahan UNIMAL Tahun 2021"
+                        android:text="Peraturan Rektor Universitas Malikussaleh Nomor 12 Tahun 2021"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="20dp"
+                        android:textSize="18dp"
                         android:layout_marginBottom="50dp"
                         android:layout_marginRight="60dp"
                             android:padding="10dp"/>
@@ -168,7 +171,7 @@
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="Berikut ialah Nama Nama Penerima Kip Kuliah di Universitas Malikkussaleh Tahun 2021"
+                        android:text="Berikut ialah Peraturan Rektor Universitas Malikussaleh Nomor 12 Tahun 2021"
                         android:layout_marginTop="98dp"
                         android:layout_marginLeft="10dp"
                             android:padding="10dp"/>
@@ -180,6 +183,63 @@
                         android:text="Klik Disini"
                         android:layout_marginTop="145dp"
                         android:layout_marginLeft="200dp"/>
+
+                </androidx.cardview.widget.CardView>
+<!--                sudah-->
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                    <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/logounimal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="205dp"/>
+
+                    <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Sosialisasi Pencegahan dan Penanganan Kekerasan Seksual di Universitas Malikussaleh"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginBottom="50dp"
+                            android:layout_marginRight="60dp"
+                            android:padding="10dp"/>
+
+
+                    <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Berikut ialah Sosialisasi Pencegahan dan Penanganan Kekerasan Seksual di Universitas Malikussaleh"
+                            android:layout_marginTop="98dp"
+                            android:layout_marginLeft="10dp"
+                            android:padding="10dp"
+                            android:textSize="12dp"/>
+
+                    <Button
+                            android:onClick="empat"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:text="Klik Disini"
+                            android:layout_marginTop="145dp"
+                            android:layout_marginLeft="200dp"/>
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
